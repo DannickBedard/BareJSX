@@ -4,6 +4,8 @@
   "description": "A attempte of creating a small libraryie to use jsx file in vanillia javscript.",
   "main": "index.js",
   "scripts": {
+    "start": "http-server .",
+    "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +15,7 @@
     "@babel/cli": "^7.24.5",
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
-    "@babel/preset-react": "^7.24.1"
+    "@babel/preset-react": "^7.24.1",
+    "http-server": "^14.1.1"
   }
 }
